@@ -62,9 +62,9 @@ public class AboutAssertions {
 
     @Koan
     public void assertSameInstance() {
-        Integer original = new Integer(1);
-        Integer same = original;
-        Integer different = new Integer(1);
+        String original = new String("Hello";
+        String same = original;
+        String different = new String("Hello";
         // These are both equal to the original...
         assertEquals(original, same);
         assertEquals(original, different);
@@ -74,9 +74,9 @@ public class AboutAssertions {
 
     @Koan
     public void assertNotSameInstance() {
-        Integer original = new Integer(1);
-        Integer same = original;
-        Integer different = new Integer(1);
+        String original = new String("Goodbye";
+        String same = original;
+        String different = new String("Goodbye";
         // These are both equal to the original...
         assertEquals(original, same);
         assertEquals(original, different);
